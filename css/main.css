@@ -1,6 +1,6 @@
 body {
-  background-color: bisque;
-  color: sienna;
+  background-color: #2A2B2DFF;
+  color: aqua;
   font-family: sans-serif;
   font-size: 25px;
   margin: 25px 60px;
@@ -10,12 +10,12 @@ h1 {
   margin: 30px 0 50px 0;
 }
 a {
-  color: SandyBrown;
+  color: aquamarine;
   text-decoration: none;
   font-size: 25px;
 }
 a:hover{
-  color: teal;
+  color: DeepPink;
 }
 ul {
   list-style-type: none;
