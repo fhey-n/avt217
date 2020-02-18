@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.container {
+ width: 110vw;
+ margin: 0;
+}
+.block-1, .block-2 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  /* opacity: .7; */
+  border-radius: 0%;
+  border: 10px solid black;
+  opacity: 50%;
+}
+.block-1 {
+  border-color: #F67E7D;
+  margin: -2px;
+  background-color: #F67E7D;
+}
+.block-2 {
+  border-color: #843B62;
+  margin: -2px;
+  background-color: #843B62;
+}
+.block-3 {
+  border-radius: 0%;
+  border: 10px solid black;
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-color: #0B032D;
+  margin: -2px;
+  opacity: 50%;
+  background-color: #0B032D;
+}
