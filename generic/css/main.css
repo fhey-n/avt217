@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+#container{
+  background-color: yellow;
+  width: 75%;
+  margin: 100px auto;
+  padding: 100px;
+}
+h1.google{
+  font-family: 'Lacquer', sans-serif;
+  /*font-family: 'Dancing Script', cursive;'*/
+}
+h2.google{
+  font-family: 'Dancing Script', cursive;
+}
+h1.adobe{
+  font-family: clone-rounded-latin, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
