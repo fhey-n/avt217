@@ -3,22 +3,7 @@ body {
   color: #FFFFFF;
   margin: 30px 350px 75px;
   margin-top: 70px;
-  background: linear-gradient(270deg, #000000, #301b1b);
-background-size: 400% 400%;
-
--webkit-animation: AnimationName 10s ease infinite;
-animation: AnimationName 10s ease infinite;
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
+  border: 5px red;
 }
 h1 {
   text-align: center;
@@ -52,13 +37,12 @@ p {
   font-size: 25px;
 }
 a {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
-  transition: color 2s ease;
+  font-style: italic;
 }
-a:hover{
+a.ex2:hover {
   color: Red;
-}
-a:visited {
-  color: white;
+  font-size: 110%;
+  transition: font-size 2s;
 }
