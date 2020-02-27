@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background: teal;
+}
+.board{
+  width: 800px;
+  margin: 100px auto;
+}
+.red, .white {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.red {
+  background-color: orange;
+}
+.white {
+  background-color: aquamarine;
+}
