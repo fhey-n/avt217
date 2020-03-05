@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background-color: lightpink;
+}
+.small, .skinny, .normal, .big{
+  float: left;
+  background-color: lightblue;
+  border: 2px solid white;
+}
+.contain {
+  width: 828px;
+  margin: auto 100px;
+}
+.container {
+  width:624px;
+  float: left;
+}
+.small {
+  width: 100px;
+  height: 250px;
+}
+.container2 {
+  width: 104px;
+  float: left;
+}
+.big {
+  width: 200px;
+  height: 758px;
+}
+.container3{
+  width: 520px;
+  float: left;
+}
+.skinny {
+  width: 100px;
+  height: 504px;
+}
+.normal {
+  width: 204px;
+  height: 504px;
+}
+.container4 {
+  width: 204px;
+  float: left;
+}
