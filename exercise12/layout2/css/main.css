@@ -15,23 +15,22 @@ body {
 .contain {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 80vw;
+  margin: 0px auto;
 }
 .volume {
-  flex: 42%;
-  margin-right: 8px;
+  width: 42%;
+  margin-right: 12px;
 }
 .maintext {
-  flex: 58%;
-  margin-left: 8px;
+  width: 58%;
+  margin-left: 12px;
 }
 h1 {
   color: white;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: -60px;
   font-family: axia-stencil, sans-serif;
   font-weight: 900;
@@ -49,4 +48,26 @@ h4 {
   font-size: 60px;
 }
 h3 {
+  color: DimGrey;
+  font-family: fira-sans, sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 100px;
+  line-height: 1;
+  margin-top:
+}
+h5 {
+  color: DimGrey;
+  font-family: fira-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+p {
+  color: DimGrey;
+  font-family: fira-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 1.4;
 }
