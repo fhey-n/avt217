@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: Pink;
+  margin: 0;
+  color: Grey;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+h1, h3{
+  text-align: center;
+}
+a {
+  color: sienna;
+  text-decoration: none;
+  font-size: 25px;
+}
+a:hover{
+  color: Teal;
+}
+
+.body {
+  background-color: Sienna;
+  width: 360px;
+  height: 520px;
+  border-radius: 20%;
+  position: relative;
+  margin: 30px auto;
+}
+.l-eye, .r-eye {
+  background-color: black;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+}
+.l-eye {
+  left: 70px;
+}
+.r-eye {
+  right: 70px;
+}
+.mouth {
+  background-color: Tomato;
+  width: 230px;
+  height: 150px;
+  position: absolute;
+  top: 140px;
+  left: 65px;
+}
+.tooth1, .tooth2, .tooth3, .tooth4 {
+  width: 0;
+  height: 0;
+  border-left: 28.75px solid transparent;
+  border-right: 28.75px solid transparent;
+  border-top: 45px solid white;
+  position: absolute;
+}
+.tooth1, .tooth5{
+  left: 0px;
+}
+.tooth2, .tooth6 {
+  left: 57.5px;
+}
+.tooth3, .tooth7 {
+  left: 115px;
+}
+.tooth4, .tooth8 {
+  left: 172.5px;
+}
+.tooth5, .tooth6, .tooth7, .tooth8 {
+  width: 0;
+  height: 0;
+  border-left: 28.75px solid transparent;
+  border-right: 28.75px solid transparent;
+  border-bottom: 45px solid white;
+  position: absolute;
+  bottom: 0px;
+}
+.l-arm, .r-arm{
+  background-color: sienna;
+  border-radius: 30%;
+  width: 90px;
+  height: 250px;
+  position: absolute;
+  top: 230px;
+}
+.l-arm {
+  left: -80px;
+  transform: rotate(40deg);
+}
+.r-arm {
+  right: -80px;
+  transform: rotate(320deg);
+}
+.l-leg, .r-leg{
+  background-color: sienna;
+  border-radius: 30%;
+  width: 165px;
+  height: 280px;
+  position: absolute;
+  bottom: -110px;
+}
+.r-leg {
+  right: 0px;
+}
+.square {
+  background-color: black;
+  width: 35px;
+  height: 25px;
+  border-radius: 20%;
+  position: absolute;
+  top: 315px;
+  left: 160px;
+  transform: rotate(10deg);
+}
+.l-tri {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 70px solid black;
+  border-radius: 40%;
+  position: absolute;
+  top: 285px;
+  left: 110px;
+  transform: rotate(10deg);
+}
+.r-tri {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-right: 70px solid black;
+  border-radius: 40%;
+  position: absolute;
+  top: 295px;
+  right: 115px;
+  transform: rotate(10deg);
+}
